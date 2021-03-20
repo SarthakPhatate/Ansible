@@ -20,7 +20,7 @@
     - pip:
         name: docker
     
-    - name: Pull the httpd docker image from dockerhub
+    - name: Pull the httpd docker image from Dockerhub
       docker_image:
         name: "httpd"
         source: pull
